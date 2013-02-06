@@ -1,0 +1,25 @@
+/*
+Theme Name: Festival
+Theme URI: http://example.com/
+Description: Thème enfant du thème Twenty Twelve
+Author: GAC
+Author URI: http://example.com/about/
+Template: twentytwelve
+Version: 0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+body { 
+background-image: url('arcCiel.jpg'); 
+background-attachment: fixed;
+}
+
+.main-navigation { background-color: grey;}
+
+.main-navigation li.fg-rouge a{color: red; margin-left:120px; }
+.main-navigation li.fg-orange a{color: orange; }
+.main-navigation li.fg-jaune a{color: yellow; } 
+.main-navigation li.fg-vert a{color: green; }
+.main-navigation li.fg-bleu a{color: blue; }
+.main-navigation li.fg-violet a{color: purple; }
